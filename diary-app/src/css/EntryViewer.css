@@ -1,0 +1,41 @@
+.entry-viewer-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #D0F0C0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#entry-name-text {
+    font-size: 40px;
+}
+
+#text1 {
+    width: 93%;
+    height: 100%;
+    margin: 0px 30px 30px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: solid black 2px;
+    padding:10px
+}
+
+#save-button {
+    
+}
+
+#delete-button {
+
+}
+
+.button {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: #17B169;
+    border: none;
+    border-radius: 5px;
+}
