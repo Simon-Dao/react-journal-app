@@ -6,24 +6,10 @@ import List from './List'
 
 export default function EntryList() {
 
-    const [entryList, setEntryList] = useState(
-        [
-            {
-                name:'hi',id:0
-            },
-            {
-                name:'simon',id:0
-            },
-            {
-                name:'dao',id:0
-            }
-        ]
-    ); 
-
     return (
         <div class='entry-list-container'>
             <SearchBar/>   
-            <List entryList={entryList}/>
+            <List />
             <BottomButtons/>
         </div>
         
